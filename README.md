@@ -1,9 +1,9 @@
 # multilingual-press-custom-post-meta
 MLP Addon: Sync custom post meta fields with network admin for default and custom post types
  
-Version 0.1-beta1
+Version 0.1-beta1 - NOT FOR PRODUCTION
 
-TODO:
+## TODO:
 
 - Multiple meta values with the same key
 - Meta values that are image attachments 
