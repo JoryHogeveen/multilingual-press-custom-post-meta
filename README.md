@@ -12,4 +12,4 @@ TODO:
 - Security and code-format improvements
 
 Optional:
-- Overwrite defaults on a per-post basis
+- Overwrite default sync settings on a per-post basis
