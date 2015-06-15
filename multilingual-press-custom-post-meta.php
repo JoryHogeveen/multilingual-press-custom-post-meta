@@ -90,11 +90,11 @@ class Multilingualpress_Custom_Post_Meta_Sync {
 			$post_id = intval($_POST['post_ID']);
 			$type = 'post';
 			
-			$mlp_language_api = apply_filters( 'mlp_language_api', NULL );
-			$interlinked_posts = is_a( $mlp_language_api, 'Mlp_Language_Api_Interface' )
-				? $mlp_language_api->get_related_content_ids( $blog_id, $post_id, $type )
-				: array();
-			
+			if (function_exists('mlp_get_linked_elements')) {
+				$interlinked_posts = mlp_get_linked_elements( $post_id, $type, $blog_id );
+			} else {
+				return $post_meta;
+			}
 			
 			unset($interlinked_posts[$blog_id]);
 						
