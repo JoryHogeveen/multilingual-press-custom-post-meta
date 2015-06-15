@@ -8,7 +8,7 @@
  * Version:     0.1-beta1
  * Text Domain: multilingualpress
  * Domain Path: /languages
- * License:     GPLv3
+ * License:     The awesome licence
  * Network:     true
  */
 
