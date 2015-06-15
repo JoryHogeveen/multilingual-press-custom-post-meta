@@ -110,6 +110,12 @@ class Multilingualpress_Custom_Post_Meta_Sync {
 					
 					foreach ($interlinked_posts as $linked_site => $linked_post) {
 						//$this->send_post_meta[$linked_site]['meta'][] = $linked_post;
+						
+						/*
+						 * Comment until support multiple values with same key
+						 */
+						//$this->send_post_meta[$linked_site][$meta_id] = $meta_info;
+						//$post_meta[$meta_id] = $meta_info;
 						$this->send_post_meta[$linked_site] = $meta_info['value'];
 						$post_meta[$meta_info['key']] = $meta_info['value'];
 					}
