@@ -3,7 +3,7 @@ MLP Addon: Sync custom post meta fields with network admin for default and custo
 
 ## Status
 
-Version 0.1-beta1 - NOT FOR PRODUCTION
+Version 0.1 - NOT FOR PRODUCTION
 
 ### TODO
 
