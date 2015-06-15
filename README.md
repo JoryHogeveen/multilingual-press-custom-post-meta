@@ -1,4 +1,4 @@
-# Multilingual-Press - AddOn: Sync Custom Post Meta
+# MultilingualPress - Add-on: Sync Custom Post Meta
 MLP Addon: Sync custom post meta fields with network admin for default and custom post types
 
 ## Status
