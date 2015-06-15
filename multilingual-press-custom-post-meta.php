@@ -5,7 +5,7 @@
  * Description: Add post meta sync functionality to MultilingualPress
  * Author:      Jory Hogeveen
  * Author URI:  http://www.keraweb.nl
- * Version:     0.1-beta1
+ * Version:     0.1
  * Text Domain: multilingualpress
  * Domain Path: /languages
  * License:     The awesome licence
