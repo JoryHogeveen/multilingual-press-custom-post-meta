@@ -52,7 +52,7 @@ class Multilingualpress_Custom_Post_Meta_Sync {
 	public function setup() {
 		
 		$this->mlp_sync_custom_post_meta = get_option('mlp_sync_custom_post_meta');
-		if ($this->mlp_sync_custom_post_meta != false) {
+		if ($this->mlp_sync_custom_post_meta == false) {
 			add_option('mlp_sync_custom_post_meta', '', '', 'yes');
 		}
 				
@@ -204,7 +204,11 @@ function generate_post_type_meta_keys() {
 		";
 		$meta_keys = $wpdb->get_col($wpdb->prepare($query, $post_type));
 		$meta_total[$post_type] = $meta_keys;
-		set_transient($post_type.'_meta_keys', $meta_keys, 60*60*24); # 1 Day Expiration
+		
+		/*
+		 * Need review if this is needed
+		 */
+		//set_transient($post_type.'_meta_keys', $meta_keys, 60*60*24); # 1 Day Expiration
 	}
     return $meta_total;
 }
