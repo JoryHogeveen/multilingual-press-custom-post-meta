@@ -8,8 +8,8 @@ Version 0.1 - NOT FOR PRODUCTION
 ### TODO
 
 - Multiple meta values with the same key
-- Meta values that are image attachments 
-  - Thoughts are welcome since these meta values are dependent on the type of custom fields plugin
+- Meta values that are attachments or post-relationships
+  - Thoughts are welcome since these meta values are dependent on the type of custom fields plugin (Pods, Types, ACF, etc.)
   - I think this will need additional addons for different custom fields plugins
 - Security and code-format improvements
 
